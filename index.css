@@ -1,0 +1,219 @@
+#background {
+  background-image: url(./galaxy.webp);
+  height: 900px;
+  width: 900px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* :root{
+    --orbit-direction: 
+} */
+#sunpic {
+  height: 100px;
+  width: 100px;
+}
+
+.solar {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.pics {
+  position: absolute;
+}
+.venus {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  animation: venus 10s linear infinite;
+}
+#venpic {
+  height: 15px;
+  width: 15px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: venus 1s linear infinite;
+}
+@keyframes venus {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.mercury {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  animation: mercury 20s linear infinite;
+}
+#merpic {
+  height: 25px;
+  width: 25px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: mercury 3s linear infinite;
+}
+@keyframes mercury {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.world {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  animation: earth 40s linear infinite;
+}
+#earpic {
+  height: 30px;
+  width: 30px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: earth 3s linear infinite;
+}
+
+@keyframes earth {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.mars {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 410px;
+  height: 410px;
+  position: absolute;
+  animation: mars 50s linear infinite;
+}
+#marpic {
+  height: 15px;
+  width: 15px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: mars 3s linear infinite;
+}
+@keyframes mars {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.jupiter {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  animation: jupiter 60s linear infinite;
+}
+#juppic {
+  height: 40px;
+  width: 40px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: jupiter 1s linear infinite;
+}
+@keyframes jupiter {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.saturn {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  animation: saturn 140s linear infinite;
+}
+#satpic {
+  height: 40px;
+  width: 60px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: saturn 1s linear infinite;
+}
+@keyframes saturn {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.uranus {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 620px;
+  height: 620px;
+  position: absolute;
+  animation: uranus 200s linear infinite;
+}
+#urapic {
+  height: 45px;
+  width: 45px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: uranus 2s linear infinite;
+}
+@keyframes uranus {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.neptune {
+  border: 1px dashed white;
+  border-radius: 50%;
+  width: 710px;
+  height: 710px;
+  position: absolute;
+  animation: neptune 300s linear infinite;
+}
+#neppic {
+  height: 60px;
+  width: 60px;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  animation: neptune 2s linear infinite;
+}
+@keyframes neptune {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
