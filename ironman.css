@@ -1,0 +1,106 @@
+body {
+  background: #000000;
+}
+.tom {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #ffffff;
+
+  background-color: #fec5ef;
+  border-style: dashed;
+  border-width: 100px;
+  box-shadow: 0px 0px 35px 8px #4a9bd1;
+  animation: tomBuurunhii 15s linear infinite;
+}
+@keyframes tomBuurunhii {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.dotorh {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #fec5ef;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 50px;
+}
+.dund {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #fec5ef;
+  background-color: #ffffff;
+  border-style: dashed;
+  border-width: 40px;
+  box-shadow: 0px 0px 32px 8px #fd97fe;
+  animation: dund 13s linear infinite;
+}
+@keyframes dund {
+  0% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+.dotor {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-color: #fec5ef;
+  border-style: solid;
+  border-width: 25px;
+  animation: dund 13s linear infinite;
+}
+.jijig {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #fec5ef;
+  background-color: #ffffff;
+  border-style: dashed;
+  box-shadow: inset 2px 2px 32px 2px #fd97fe;
+  border-width: 25px;
+  animation: tomBuurunhii 13s linear infinite;
+}
+.hamgiin-jijig {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-color: #ffffff;
+  background-color: #fec5ef;
+  border-style: solid;
+  border-width: 25px;
+  animation: dund 13s linear infinite;
+}
